@@ -1,0 +1,39 @@
+body {
+    background-color: #2b2b2b;
+}
+
+* {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+#grille {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    background-color: #0077c7;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    margin-top: 3em;
+}
+
+.good{
+    background-color: #e7002a;
+}
+
+.almost{
+    background-color: #ffbd00;
+}

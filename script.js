@@ -63,7 +63,7 @@ const writeLetter = (e) => {
                 validateLigne(childs);
                 if(indexLetters.length === mot.length){
                     let finish = document.getElementById("finish");
-                    finish.innerHTML = "Bravo ! Vous avez deviné le mot en " + essai + " essais :)";
+                    finish.innerHTML = "Bravo ! Vous avez deviné le mot en " + (essai+1) + " essai(s) :)";
                 }
                 else{
                     essai++;
@@ -72,7 +72,7 @@ const writeLetter = (e) => {
                     }
                     else{
                         let finish = document.getElementById("finish");
-                        finish.innerHTML = "Vous n'avez réussi à deviner le mot, dommage !";
+                        finish.innerHTML = "Vous n'avez réussi à deviner le mot, dommage ! <br />Le mot à deviner était : " + mot;
                     }
                 }
             }
